@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'KinUX/KinUX/Src/**/*'
 
-  s.dependency 'KinBase', :git => 'https://github.com/triniwiz/kin-ios.git'
-  s.dependency 'KinDesign', :git => 'https://github.com/triniwiz/kin-ios.git'
+  s.dependency 'KinBase', '~> 0.4.5'
+  s.dependency 'KinDesign', '~> 0.4.5'
 
   # Dependencies needed for KinGrpcApi
   s.dependency 'gRPC-ProtoRPC'
